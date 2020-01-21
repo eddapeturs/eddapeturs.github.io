@@ -1,0 +1,39 @@
+body {
+    background-color: #F26522;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40pt;
+    color: #2C363F;
+}
+
+p {
+    color: white;
+    font-size: 16pt;
+    font-weight: 800;
+}
+
+.outerbox {
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+    /*padding: 3%;*/
+}
+
+.innerbox {
+    opacity: 1;
+    position: relative;
+    background-color: #EFF9F0;
+    margin: 2%;
+    /*margin-left: 3%;*/
+    /*margin-right: 20%;*/
+    /*margin-right: 5%;*/
+    /*margin-top: 5%;*/
+    padding-top: 2%;
+    /*display: inline-block;*/
+
+}
