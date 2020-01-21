@@ -1,6 +1,7 @@
 body, html {
     height: 100%;
     margin: 0px;
+    overflow: hidden;
 }
 
 .bg {
@@ -27,7 +28,32 @@ body, html {
 
 .scrabble {
     width: 3%;
+    padding: 14px;
+    margin-top: 6%;
 }
+
+.w {
+    transform: rotate(10deg);
+}
+
+.e {
+    transform: rotate(-25deg);
+}
+
+.l {
+    transform: rotate(4deg);
+}
+
+.c {
+    transform: rotate(-20deg);
+}
+
+.m {
+    transform: rotate(20deg);
+}
+
+
+
 
 .headerText h1 {
     /*font-family: "Courier New";*/
