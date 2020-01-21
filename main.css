@@ -22,11 +22,18 @@ body, html {
     /*margin-left: 40%;*/
     text-align: center;
     width: 100%;
-    margin-top: 3%;
+    /*margin-top: 3%;*/
+}
+
+.scrabble {
+    width: 3%;
 }
 
 .headerText h1 {
-    font-family: "Courier New";
+    /*font-family: "Courier New";*/
+    /*font-family: 'Libre Franklin', sans-serif;*/
+    font-family: 'Libre Baskerville', serif;
+    width: 10%;
 }
 
 .gameboy {
@@ -44,6 +51,31 @@ body, html {
     margin-left: 10%;
     transform: rotate(-20deg);
 }
+
+.eraser {
+    position: absolute;
+    width: 7%;
+    margin-top: 7%;
+    margin-left: 23%;
+    transform: rotate(20deg);
+}
+
+.ruler {
+    position: absolute;
+    width: 23%;
+    margin-top: 50%;
+    margin-left: 13%;
+    transform: rotate(-20deg);
+}
+
+.pencil {
+    position: absolute;
+    width: 16%;
+    margin-top: 19%;
+    margin-left: 8%;
+    transform: rotate(-70deg);
+}
+
 
 /* COMPUTER */
 .macbook {
@@ -106,6 +138,16 @@ body, html {
     transform: rotate(40deg);
 }
 
+.coffeestain {
+    position: absolute;
+    width: 13%;
+    height: auto;
+    margin-left: 73%;
+    margin-top: 21%;
+    opacity: 0.5;
+    /*transform: rotate(40deg);*/
+}
+
 .passport {
     position: absolute;
     width: 10%;
@@ -119,8 +161,40 @@ body, html {
     position: absolute;
     width: 8%;
     height: auto;
-    margin-left: 91%;
-    margin-top: 40%;
+    margin-left: 92%;
+    margin-top: 20%;
+}
+
+.postit-wrapper {
+    position: absolute;
+    /*width: 12%;*/
+    /*height: auto;*/
+    margin-left: 74%;
+    margin-top: 34%;
+    /*transform: rotate(-10deg);*/
+}
+
+.postit {
+    /*position: absolute;*/
+    width: 40%;
+    height: auto;
+    /*margin-left: 74%;*/
+    /*margin-top: 34%;*/
+    /*transform: rotate(-10deg);*/
+}
+
+.postit-writing {
+    position: absolute;
+    font-family: 'Cedarville Cursive', cursive;
+    margin-left: 24px;
+}
+
+.earbuds {
+    position: absolute;
+    width: 26%;
+    margin-left: 86%;
+    margin-top: 33%;
+    transform: rotate(-70deg);
 }
 
 .gameboy:hover,
@@ -131,31 +205,3 @@ body, html {
     opacity: 0.5;
 }
 
-/*.eggi {*/
-    /*width: 13%;*/
-    /*height: 31%;*/
-    /*position: absolute;*/
-    /*top: 12.5%;*/
-    /*left:2.8%;*/
-/*}*/
-
-/*.eg-mynd {*/
-    /*position: relative;*/
-    /*width: 90%;*/
-    /*height: 90%;*/
-    /*padding-left: 10px;*/
-    /*padding-top: 5px;*/
-/*}*/
-
-
-/*.eggi h3 {*/
-    /*text-align: center;*/
-/*}*/
-
-/*.eggi:hover {*/
-    /*!*border-style: solid;*!*/
-    /*!*border-width: 3px;*!*/
-    /*!*border-color: red;*!*/
-    /*background-color: white;*/
-    /*opacity: 0.5;*/
-/*}*/
